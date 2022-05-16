@@ -1,0 +1,49 @@
+:root {
+    --content: #586e75;
+    --accent: #93a1a1;
+    --link: #268bd2;
+    --art: #002b36;
+    --background: #fdf6e3;
+}
+
+.art {
+    color: var(--art);
+}
+
+.accent {
+    color: var(--accent)
+}
+
+.link {
+    color: var(--link)
+}
+
+.content {
+    color: var(--content)
+}
+
+.background {
+    margin-top:1%;
+    margin-left:2%;
+    background-color: var(--background)
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #586e75;
+        --art: #d33682;
+        --content: #93a1a1;
+        --background: #002b36;
+    }
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    color: #dc322f;
+    bottom: 120%;
+    margin-left: -15px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
