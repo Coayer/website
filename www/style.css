@@ -26,7 +26,8 @@ html * {
 }
 
 .content {
-    color: var(--content)
+    color: var(--content);
+    font-size: min(2.5vw, 13px);
 }
 
 .background {
@@ -49,8 +50,10 @@ html * {
     color: #dc322f;
     bottom: 120%;
     margin-left: -15px;
+    font-size: min(2.5vw, 13px);
 }
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    font-size: min(2.5vw, 13px);
 }
