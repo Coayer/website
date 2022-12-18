@@ -17,12 +17,12 @@ html * {
 
 .accent {
     color: var(--accent);
-    font-size: min(1.8vw, 13px);
+    font-size: min(2.5vw, 13px);
 }
 
 .link {
     color: var(--link);
-    font-size: min(1.8vw, 13px);
+    font-size: min(2.5vw, 13px);
 }
 
 .content {
