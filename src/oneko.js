@@ -86,7 +86,7 @@ function oneko() {
     nekoEl.style.height = "32px";
     nekoEl.style.position = "fixed";
     nekoEl.style.pointerEvents = "none";
-    nekoEl.style.backgroundImage = "url('maia_oneko.gif')";
+    nekoEl.style.backgroundImage = "url('assets/maia_oneko.gif')";
     nekoEl.style.imageRendering = "pixelated";
     nekoEl.style.left = `${nekoPosX}px`;
     nekoEl.style.top = `${nekoPosY}px`;
