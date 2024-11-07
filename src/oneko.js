@@ -113,20 +113,21 @@ function oneko() {
 
   function idle() {
     idleTime += 1;
+    margin = 256;
 
     // every ~ 20 seconds
     if (idleTime > 10 && true && idleAnimation == null) {
       let avalibleIdleAnimations = ["sleeping", "scratchSelf"];
-      if (nekoPosX < 32) {
+      if (nekoPosX < margin) {
         avalibleIdleAnimations.push("scratchWallW");
       }
-      if (nekoPosY < 32) {
+      if (nekoPosY < margin) {
         avalibleIdleAnimations.push("scratchWallN");
       }
-      if (nekoPosX > window.innerWidth - 32) {
+      if (nekoPosX > window.innerWidth - margin) {
         avalibleIdleAnimations.push("scratchWallE");
       }
-      if (nekoPosY > window.innerHeight - 32) {
+      if (nekoPosY > window.innerHeight - margin) {
         avalibleIdleAnimations.push("scratchWallS");
       }
       idleAnimation =
