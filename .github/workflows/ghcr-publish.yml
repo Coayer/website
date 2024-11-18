@@ -49,5 +49,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ steps.vars.outputs.sha_short }}
+          tags: ${{ env.REGISTRY }}/${{ github.actor }}/${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.sha_short }}
           labels: ${{ steps.meta.outputs.labels }}
