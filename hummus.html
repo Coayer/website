@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copeland Royall</title>
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body class="background">
+    <main class="container">
+        <nav class="nav-links">
+            <a href="https://copey.dev" class="link" aria-label="Return to copey.dev homepage">Back to copey.dev</a>
+        </nav>
+        <article class="content">
+            <p>Hummus is one of my favorite foods — here's my recipe for perfect hummus, building on a Hebrew recipe from Hummus101.com</p>
+
+            <pre>Ingredients:
+                - 2 ~400g cans of chickpeas, one drained and one with liquid
+                - 1-2 cloves of garlic (depending on strength)
+                - 1 cup of tahini
+                - 1 juiced lemon
+                - 1-2 tablespoons of olive oil
+                - 1 heaped teaspoon of cumin
+                - 1 teaspoon of salt
+            </pre>
+
+            <p>
+                Combine all ingredients in blender/food processor. Blend until smooth or appliance begins to smoke.
+            <p>
+                The consistency when fresh will be slightly liquid and jiggle when shaken, but it will thicken in the fridge.
+            <p>
+                It's worth considering the olive oil — you can use mild or extra virgin, but a super pungent oil might be too much. Start with one tbsp and taste — you might want more
+                for a creamier texture.
+            <p>
+                The original Hummus101 recipe was adamant about cooking the chickpeas from scratch, but the cans are ludicrously convenient in comparison, 
+                and the end product was better. 🤷 It's worth using expensive chickpeas — a couple £/$ more overall but a small difference compared to how much the equivalent
+                quantity of hummus you're making would be to buy.
+            </article>
+            <button id="copy-recipe" class="sci-fi-button">Copy Ingredients</button>
+            <script>
+                document.getElementById('copy-recipe').addEventListener('click', () => {
+                    navigator.clipboard.writeText(`- 2 cans of chickpeas, one drained and one with liquid
+                    - 1-2 cloves of garlic (depending on strength)
+                    - 1 cup of tahini
+                    - 1 lemon (juiced)
+                    - 1-2 tablespoons of olive oil
+                    - 1 heaped teaspoon of cumin
+                    - 1 teaspoon of salt`);
+                    alert('Recipe copied to clipboard!');
+                });
+            </script>
+            <hr class="divider">
+            <article class="content">
+                <p>Top UK store-bought hummus:</p>
+                <pre>S Tier:
+                    - San Amvrosia Original Hummus
+                    - Little Herb Farm Houmous
+A Tier:
+                    - Meze Hummus
+                </pre>
+		<p>Delphi, Ramona and Sabra are fine but nowhere near the same level. Maybe B+, B-, C+ respectively.</p> 
+                <p>The own-brand supermarket stuff (essential/classic) is so different to good hummus it's not worth comparing. D- tier. They still have the right ingredients so can't be F.
+                   Fine for dipping crisps etc. but they're just so bad. 
+                <p>In the US the 365-branded (Whole Foods) one is OK, but I actively dislike Trader Joe's options.
